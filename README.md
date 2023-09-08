@@ -29,7 +29,7 @@ Use the character `|` (pipe) to escape any of the mask rules and use them as lit
 Start by importing the `InputMaskModule`:
 
 ````javascript
-import { InputMaskModule } from '@emerbrito/input-mask';
+import { InputMaskModule } from '@enbeltran87/input-mask';
 ````
 
 Then apply the directive to an input element and set the mask property:
@@ -63,4 +63,4 @@ To prevent the mask validation from propagating to the form control (if you is b
 ````
 
 ### Custom Rules
-For a use case not covered by the built in rules, new custom rules can be created and registered with the directive. See [wiki](https://github.com/emerbrito/ng-input-mask/wiki) form more details.
+For a use case not covered by the built in rules, new custom rules can be created and registered with the directive. See [wiki](https://github.com/enbeltran87/ng-input-mask/wiki) form more details.
